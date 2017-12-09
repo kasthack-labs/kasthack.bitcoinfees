@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PublishReferencesDocumentationFiles>true</PublishReferencesDocumentationFiles>
+		<PublishDocumentationFile>true</PublishDocumentationFile>
+		<PublishDocumentationFiles>true</PublishDocumentationFiles>
+		<TargetFrameworks>net46;net461;net462;net47;netstandard2.0;</TargetFrameworks>
+		<PackageId>kasthack.bitcoinfees</PackageId>
+		<PackageDescription>Bitcoinfees.earn.com API client</PackageDescription>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageTags>kasthack bitcoin bitcoinfees</PackageTags>
+		<PackageLicenseUrl>https://github.com/kasthack/kasthack.bitcoinfees/blob/master/LICENSE.txt</PackageLicenseUrl>
+		<PackageProjectUrl>http://github.com/kasthack/kasthack.bitcoinfees</PackageProjectUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="10.*" />
+		<PackageReference Include="System.Net.Http" Version="4.*" />
+		<PackageReference Include="System.io.filesystem" Version="4.*" />
+	</ItemGroup>
+</Project>
